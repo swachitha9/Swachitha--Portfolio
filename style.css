@@ -62,22 +62,17 @@ h2 { margin-top: 0; font-size: 1.6rem; }
   .menu.show { display: flex; }
   .menu-btn { display: inline-block; }
 }
-.profile-pic-small {
-  width: 45px;
-  height: 45px;
+.profile-photo {
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 8px;
-  border: 2px solid var(--accent);
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.brand {
-  display: flex;
-  align-items: center;
-  font-weight: bold;
-  font-size: 1.1rem;
-  color: var(--light);
-  text-decoration: none;
-}
+
+
 
 
