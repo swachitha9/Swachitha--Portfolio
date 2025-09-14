@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Swachitha | DevOps Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <meta name="description" content="DevOps portfolio: AWS, Azure, CI/CD, Kubernetes, Terraform" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#">Swachitha</a>
+      <button id="menuBtn" class="menu-btn" aria-label="Toggle navigation">☰</button>
+      <nav id="menu" class="menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Hi, I'm <span class="accent">Swachitha</span></h1>
+        <p class="subtitle">DevOps Engineer • AWS • Azure • CI/CD • Kubernetes • Terraform</p>
+        <div class="cta-group">
+          <a class="btn" href="#contact">Contact Me</a>
+          <a class="btn ghost" href="#experience">View Experience</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          DevOps Engineer focusing on reliable cloud infrastructure (AWS & Azure), automated CI/CD,
+          Kubernetes, Terraform, observability, and secure deployments. Passionate about
+          simplifying releases and improving uptime.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Core Skills</h2>
+        <ul class="pill-list">
+          <li>AWS (EC2, VPC, EKS, Lambda)</li>
+          <li>Azure (AKS, VNets, Key Vault)</li>
+          <li>CI/CD (Jenkins, GitHub Actions, Azure DevOps)</li>
+          <li>IaC (Terraform, CloudFormation)</li>
+          <li>Containers (Docker, Kubernetes, Helm)</li>
+          <li>Observability (Grafana, Prometheus, Splunk)</li>
+          <li>Security (IAM, Trivy, TLS)</li>
+          <li>Python • Bash</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience</h2>
+
+        <article class="card">
+          <h3>Molina HealthCare — Software Engineer (DevOps)</h3>
+          <p><em>Feb 2025 – Present</em></p>
+          <ul>
+            <li>Built CI/CD (Jenkins/CodePipeline) to cut release time by ~30%.</li>
+            <li>Automated infra with Terraform; standardized prod/stage/dev.</li>
+            <li>Deployed & monitored workloads on EKS/AKS with HPA & alerts.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Total Bank Solutions — DevOps Engineer</h3>
+          <p><em>Jan 2024 – Dec 2024</em></p>
+          <ul>
+            <li>Azure DevOps YAML pipelines with security scans; lead time ↓ ~35%.</li>
+            <li>Canary & blue/green deploys via Helm; near-zero downtime.</li>
+            <li>Dashboards in Grafana/Prometheus; MTTR improved.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Wipro — DevOps Engineer</h3>
+          <p><em>Jan 2019 – Aug 2023</em></p>
+          <ul>
+            <li>GitLab CI/CD & Maven for microservices; faster, safer releases.</li>
+            <li>Terraform/CloudFormation for reproducible AWS envs.</li>
+            <li>Runbooks + Splunk alerts; incidents reduced.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <article class="card">
+          <h3>CI/CD Accelerator</h3>
+          <p>Template pipelines (Jenkins/GitHub Actions) with quality gates and IaC hooks.</p>
+        </article>
+        <article class="card">
+          <h3>Kubernetes Starter</h3>
+          <p>Helm charts + autoscaling defaults for stateless services.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <ul class="contact-list">
+          <li>Email: <a href="mailto:amruthamswachitha@gmail.com">amruthamswachitha@gmail.com</a></li>
+          <li>Location: Open to opportunities</li>
+          <!-- Optional: <li><a href="resume.pdf" target="_blank">Download Resume (PDF)</a></li> -->
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Swachitha — Built with HTML, CSS & JS</small>
+    </div>
+  </footer>
+</body>
+</html>
